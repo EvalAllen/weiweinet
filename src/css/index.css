@@ -2,6 +2,9 @@
   width: 1200px;
   margin: 0 auto;
 }
+a {
+  cursor: pointer;
+}
 .top {
   background: #fafafa;
   overflow: hidden;
@@ -334,22 +337,46 @@
   width: 200px;
   margin-top: 10px;
 }
-.container {
-  margin: 0 auto;
-  width: 1200px;
-  font-size: 14px;
-}
-.container .second-part .big-brand {
+.container .container-top {
   overflow: hidden;
 }
-.container .second-part .big-brand li:first-child {
-  border-left: 1px solid #e7e7e7;
+.container .container-top h2 {
+  line-height: 58px;
+  color: #616954;
+  font-size: 20px;
 }
-.container .second-part .big-brand li {
+.container .container-top img {
+  margin-top: 20px;
+  margin-left: 14px;
+}
+.container .container-middle ul li a {
   float: left;
-  width: 33.3333333333%;
-  box-sizing: border-box;
-  overflow: hidden;
-  border-top: 1px solid #e7e7e7;
-  border-right: 1px solid #e7e7e7;
+  cursor: pointer;
+}
+.container .container-bottom ul li {
+  float: left;
+  cursor: pointer;
+}
+.container .container-di ul li {
+  float: left;
+  cursor: pointer;
+}
+.imgester .imgester-nav ul {
+  height: 86px;
+  border-bottom: 1px solid #C3BCC3;
+}
+.imgester .imgester-nav ul li {
+  float: left;
+}
+.imgester .imgester-nav ul li a {
+  font-size: 13px;
+  line-height: 86px;
+  padding: 10px 26px;
+  margin-left: 28px;
+}
+.imgester .imgester-nav ul li a.cheng {
+  border-right: 1px solid #C3BCC3;
+}
+.imgester .imgester-nav ul li a:hover {
+  color: #ffac00;
 }
