@@ -9,21 +9,26 @@ a{
 //头部
 .top{
    background: #fafafa;
-   overflow: hidden;
+// overflow: hidden;
+   height: 32px;
    width: 100%;
    color: #777777;
    .toper{
-       overflow: hidden;
+//     overflow: hidden;
        border-bottom: 1px solid #f0f0f0;
        position: relative;
        .p:hover{
            background: #FFFFFF;
        }
-       .p{
-           position: relative;         
-           .none-mess2{
+       .p:hover ~.none-mess2{
+           display: block;
+       }
+       .none-mess2:hover{
+           display: block;
+       }
+       .none-mess2{
                position: absolute;
-               padding: 0 28px 28px 12px;
+               padding: 0 20px 20px 12px;
                top: 32px;
                width: 232px;
                height: 310px;
@@ -32,20 +37,23 @@ a{
                overflow: hidden;
                color: black;
                z-index: 44;
-               left: -12px;
+               left: -10px;
+               display: none;
                ol {
                    li{
                        float: left;
                        color: black;
                        padding: 4px 6px;
+                       margin: 2px 8px;
                    }
                    li:hover{
                        background: #ffa500;
                        color: #FFFFFF;
                    }
                }
-           }
-       }
+           }     
+           
+       
    }
    .xia{
            background: url(../img/xia_03.png);
@@ -225,6 +233,9 @@ a{
            li a:hover{
                color: #ffa500;
            }
+           .none-mss:hover{
+               display: block;
+           }
            .none-mss{
                position: absolute;
                background: #FFFFFF; 
@@ -286,22 +297,26 @@ a{
         height: 100%;
         li{
             width: 100%;
-            height: 100%;
+            height: 400px;
         }
     }
     .big-nav{
            background: #2b2b2b;
            z-index: 10;
-           padding: 14px 16px  22px 19px;
+           padding: 10px 16px  22px 19px;
            width: 214px;
+           height: 368px;
            position: relative;
     ul {
         overflow: hidden;
         font-size: 12px;
+        h3{
+            line-height: 28px;
+        }
         li{
            float: left;
            margin-left: 5px;
-           margin-bottom: 14px;
+           margin-bottom: 8px;
            a{
                color: #FFFFFF;
            }
@@ -516,21 +531,19 @@ a{
               float: left; 
               padding: 10px 26px;
               height: 66px;
-              
+              text-align: center;
               a{
                   font-size: 13px;
                   line-height: 83px;
-                 
-                  margin-left: 28px;
+                  padding: 9px 27px;
+//                margin-left: 28px;
                }
                a.cheng{
                    border-right: 1px solid #C3BCC3;
                    padding-right: 14px;
                    width: 70px;
                }
-               a:hover{
-                   color: #ffac00;
-               }
+              
             }
             
         }

@@ -14,7 +14,9 @@
 			<div class="mian toper">
 				<div class="fl p">
 					<a>送至: 北京<span class="xia"></span></a>	
-					<div class="none-mess2">
+					
+				</div>
+				<div class="none-mess2">
 						<ol>
 							<li><a>北京</a></li>
 							<li><a>天津</a></li>
@@ -42,11 +44,15 @@
 							<li><a>天津</a></li>
 							<li><a>河北省</a></li>
 							<li><a>山西省</a></li>
-							<li><a>内蒙古自治区</a></li>						
+							<li><a>内蒙古自治区</a></li>	
+							<li><a>内蒙古自治区</a></li>
+							<li><a>北京</a></li>
+							<li><a>天津</a></li>
+							<li><a>河北省</a></li>
+							<li><a>山西省</a></li>
+							<li><a>内蒙古自治区</a></li>	
 						</ol>
 					</div>
-				</div>
-				
 				<ul class="fr">
 					<li><a><span></span>关注我们</a></li>
 					<li><a>客户服务<span class="xia"></span></a></li>
@@ -106,7 +112,7 @@
         	<div class="tu-left">
         		<span><em class="fl"></em><i class="fl">精选分类推荐</i></span>
         	</div>
-        	<ul>
+        	<ul id="dianji">
         		<li><a>首页</a></li>
         		<li><a>建材</a>
         			
@@ -243,10 +249,10 @@
         -->
         <div class="big-nav-wraper">
         	<ul id="datu">
-        		<li style="background: url(img/datu01_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
-        		<li style="background: url(img/datu_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
-        		<li style="background: url(img/datu02_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
-        		<li style="background: url(img/datu03_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
+        		<li class="" style="background: url(img/datu01_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
+        		<li class="" style="background: url(img/datu_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
+        		<li class="" style="background: url(img/datu02_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
+        		<li class="" style="background: url(img/datu03_02.png) no-repeat;background-size: cover;z-index: 6;"></li>
         	</ul>
         	<div class="big-nav-wai mian">
         		<div class="big-nav">
@@ -283,13 +289,7 @@
         			<li><a>橱柜</a></li>		
         			<li><a>淋浴房</a></li><br />
         			<li><a>地板/榻榻米</a></li>
-        			<li><a>移门衣柜</a></li>
-        			<li><a>墙纸</a></li>
-        			<li><a>门窗</a></li>
-        			<br />
-        			<li><a>净水器/水处理</a></li>
-        			<li><a>定制楼梯</a></li>
-        			<li><a>保险箱</a></li>
+        			
         		</ul>
         	</div>
         	<div class="top-list">
@@ -615,10 +615,15 @@
 			<!--
             	添加点击事件 点击后  添加class
             -->
-			<li><a class="cheng">楼层直达：</a></li>
-			<li><a>1F家装素材</a></li>
-			<li><a>2F软装家具</a></li>
-			<li><a>3F家纺家饰</a></li>
+			
+				<a class="cheng fl">
+			<span style="padding-right: 28px;border-right: 1px solid #ccc; line-height: 83px;position: relative;top: 9px;">
+					楼层直达：
+				</span></a>
+			
+			<li><a class="fang">1F家装素材</a></li>
+			<li><a class="">2F软装家具</a></li>
+			<li><a class="">3F家纺家饰</a></li>
 		</ul>		
 	</div>	
 </div>
@@ -818,5 +823,8 @@
       </div>
 </div>
 <script src="js/lib/jquery/jquery-3.3.1.js"></script>
+<script src="js/lunbo.js"></script>
+<script type="text/javascript" src="js/dianji.js" ></script>
+
 	</body>
 </html>
