@@ -381,6 +381,7 @@ a{
         }
     }
     .container-middle{
+        height: 180px;
         ul{
             li a{
                 float: left;
@@ -390,6 +391,7 @@ a{
     }
     .container-bottom{
         ul {
+            height: 125px;
             li{
                 float: left;
                 cursor: pointer;
@@ -398,6 +400,7 @@ a{
     }
     .container-di{
         ul {
+            height: 50px;
             li{
                 float: left;
                 cursor: pointer;
@@ -408,6 +411,7 @@ a{
 
 //楼层部分
 .imgester{
+    height: 86px;
     .imgester-nav{
 //      overflow: hidden;
         
@@ -415,15 +419,20 @@ a{
              height: 86px;
              border-bottom: 1px solid #C3BCC3;
           li{
-              float: left;
+              float: left; 
+              padding: 10px 26px;
+              height: 66px;
+              
               a{
                   font-size: 13px;
-                  line-height: 86px;
-                  padding: 10px 26px;
+                  line-height: 83px;
+                 
                   margin-left: 28px;
                }
                a.cheng{
                    border-right: 1px solid #C3BCC3;
+                   padding-right: 14px;
+                   width: 70px;
                }
                a:hover{
                    color: #ffac00;
@@ -432,4 +441,67 @@ a{
             
         }
     }
+}
+
+
+//zhu 图片区域
+.zhu-imager{
+    overflow: hidden;
+//  margin-bottom: 20px;
+//  border-bottom: 2px solid #C3BCC3;
+    .zhu-imager-top{
+       
+        height: 76px;
+        border-bottom: 1px solid #60b3ff;
+        a{
+            display: block;
+            float: left;
+            h1{
+             line-height: 76px;
+             font-size: 20px;
+             height: 73px;
+             border-bottom: 3px solid #60b3ff;
+            }
+        }
+        ul{
+            overflow: hidden;
+            float: right;
+            li{
+                float: left;
+                a{
+                    line-height: 77px;
+                    margin-left: 12px;
+                }
+                a:hover{
+                    color: #ffac00;
+                }
+            }
+        }
+    }
+    
+}
+
+//底部的上面一部分
+
+.mss{
+    overflow: hidden;
+   ul {
+       li{
+           float: left;
+//         margin-top: 40px;
+//         margin-bottom: 14px;
+           text-align: center;
+           margin: 40px 66px 14px 66px;
+           
+           span{
+               margin-top:8px;
+               display: block;
+           }
+           
+       }
+       li:nth-child(3) span{
+           position: relative;
+           right: 10px;
+       }
+   } 
 }

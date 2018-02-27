@@ -349,17 +349,29 @@ a {
   margin-top: 20px;
   margin-left: 14px;
 }
+.container .container-middle {
+  height: 180px;
+}
 .container .container-middle ul li a {
   float: left;
   cursor: pointer;
+}
+.container .container-bottom ul {
+  height: 125px;
 }
 .container .container-bottom ul li {
   float: left;
   cursor: pointer;
 }
+.container .container-di ul {
+  height: 50px;
+}
 .container .container-di ul li {
   float: left;
   cursor: pointer;
+}
+.imgester {
+  height: 86px;
 }
 .imgester .imgester-nav ul {
   height: 86px;
@@ -367,16 +379,66 @@ a {
 }
 .imgester .imgester-nav ul li {
   float: left;
+  padding: 10px 26px;
+  height: 66px;
 }
 .imgester .imgester-nav ul li a {
   font-size: 13px;
-  line-height: 86px;
-  padding: 10px 26px;
+  line-height: 83px;
   margin-left: 28px;
 }
 .imgester .imgester-nav ul li a.cheng {
   border-right: 1px solid #C3BCC3;
+  padding-right: 14px;
+  width: 70px;
 }
 .imgester .imgester-nav ul li a:hover {
   color: #ffac00;
+}
+.zhu-imager {
+  overflow: hidden;
+}
+.zhu-imager .zhu-imager-top {
+  height: 76px;
+  border-bottom: 1px solid #60b3ff;
+}
+.zhu-imager .zhu-imager-top a {
+  display: block;
+  float: left;
+}
+.zhu-imager .zhu-imager-top a h1 {
+  line-height: 76px;
+  font-size: 20px;
+  height: 73px;
+  border-bottom: 3px solid #60b3ff;
+}
+.zhu-imager .zhu-imager-top ul {
+  overflow: hidden;
+  float: right;
+}
+.zhu-imager .zhu-imager-top ul li {
+  float: left;
+}
+.zhu-imager .zhu-imager-top ul li a {
+  line-height: 77px;
+  margin-left: 12px;
+}
+.zhu-imager .zhu-imager-top ul li a:hover {
+  color: #ffac00;
+}
+.mss {
+  overflow: hidden;
+}
+.mss ul li {
+  float: left;
+  text-align: center;
+  margin: 40px 66px 14px 66px;
+}
+.mss ul li span {
+  margin-top: 8px;
+  display: block;
+}
+.mss ul li:nth-child(3) span {
+  position: relative;
+  right: 10px;
 }
