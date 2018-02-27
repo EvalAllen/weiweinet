@@ -14,6 +14,34 @@ a {
 .top .toper {
   overflow: hidden;
   border-bottom: 1px solid #f0f0f0;
+  position: relative;
+}
+.top .toper .p:hover {
+  background: #FFFFFF;
+}
+.top .toper .p {
+  position: relative;
+}
+.top .toper .p .none-mess2 {
+  position: absolute;
+  padding: 0 28px 28px 12px;
+  top: 32px;
+  width: 232px;
+  height: 310px;
+  background: #FFFFFF;
+  overflow: hidden;
+  color: black;
+  z-index: 44;
+  left: -12px;
+}
+.top .toper .p .none-mess2 ol li {
+  float: left;
+  color: black;
+  padding: 4px 6px;
+}
+.top .toper .p .none-mess2 ol li:hover {
+  background: #ffa500;
+  color: #FFFFFF;
 }
 .top .xia {
   background: url(../img/xia_03.png);
@@ -23,8 +51,8 @@ a {
   position: relative;
   left: 3px;
 }
-.top .mian p {
-  margin: 7px 2px 9px 11px ;
+.top .mian .p {
+  padding: 7px 20px 9px 11px ;
 }
 .top ul li {
   float: right;
@@ -164,7 +192,13 @@ a {
 }
 .tu-wrap ul {
   float: left;
-  overflow: hidden;
+  position: relative;
+}
+.tu-wrap ul li:nth-child(2):hover ~ .none-mss {
+  display: block;
+}
+.tu-wrap ul li:nth-child(3):hover ~ .none-mss {
+  display: block;
 }
 .tu-wrap ul li {
   float: left;
@@ -175,28 +209,81 @@ a {
 .tu-wrap ul li a:hover {
   color: #ffa500;
 }
+.tu-wrap ul .none-mss {
+  position: absolute;
+  background: #FFFFFF;
+  display: none;
+  top: 38px;
+  font-size: 12px;
+  padding: 15px 38px 0 12px;
+  width: 980px;
+  z-index: 33;
+}
+.tu-wrap ul .none-mss h3 {
+  color: black;
+  font-weight: bold;
+  margin-left: 18px;
+  line-height: 28px;
+  border-bottom: 1px solid #C3BCC3;
+}
+.tu-wrap ul .none-mss .none-mss-first {
+  width: 300px;
+  z-index: 12;
+  color: #bebead;
+}
+.tu-wrap ul .none-mss .none-mss-first ol li {
+  float: left;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.tu-wrap ul .none-mss .none-mss-two {
+  width: 300px;
+  z-index: 12;
+  color: #bebead;
+}
+.tu-wrap ul .none-mss .none-mss-two ol li {
+  float: left;
+  margin-left: 20px;
+  margin-top: 0px;
+}
 .tu-wrap ul li:nth-child(1) {
   margin-left: 20px;
 }
-.big-nav {
-  background: #2b2b2b;
-  z-index: 4;
-  padding: 14px 16px  22px 19px;
-  width: 216px;
+.big-nav-wraper {
+  position: relative;
 }
-.big-nav ul {
+.big-nav-wraper #datu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.big-nav-wraper #datu li {
+  width: 100%;
+  height: 100%;
+}
+.big-nav-wraper .big-nav {
+  background: #2b2b2b;
+  z-index: 10;
+  padding: 14px 16px  22px 19px;
+  width: 214px;
+  position: relative;
+}
+.big-nav-wraper .big-nav ul {
   overflow: hidden;
   font-size: 12px;
 }
-.big-nav ul li {
+.big-nav-wraper .big-nav ul li {
   float: left;
   margin-left: 5px;
   margin-bottom: 14px;
 }
-.big-nav ul li a {
+.big-nav-wraper .big-nav ul li a {
   color: #FFFFFF;
 }
-.big-nav ul li a:hover {
+.big-nav-wraper .big-nav ul li a:hover {
   color: #ffa500;
 }
 .home-sale-layout {
@@ -428,6 +515,7 @@ a {
 }
 .mss {
   overflow: hidden;
+  border-bottom: 6px solid #f5f5f5;
 }
 .mss ul li {
   float: left;
@@ -441,4 +529,98 @@ a {
 .mss ul li:nth-child(3) span {
   position: relative;
   right: 10px;
+}
+#faq {
+  border-top: solid 1px #f5f5f5;
+  background: #fff;
+  padding: 30px 0px;
+  width: 100%;
+  overflow: hidden;
+}
+#faq .faq-wrapper {
+  overflow: hidden;
+}
+#faq .faq-wrapper .faq-left {
+  width: 250px;
+  height: 145px;
+  border-right: 1px solid #e4e4e4;
+}
+#faq .faq-wrapper .faq-left h2 {
+  font-size: 16px ;
+  color: #000000;
+  margin-bottom: 10px;
+}
+#faq .faq-wrapper .faq-left .faq-con {
+  margin-top: 20px;
+  padding-left: 80px;
+  height: 71px;
+  background: url(../img/43.png) no-repeat;
+}
+#faq .faq-wrapper .faq-left .faq-con h2 {
+  color: #ffa542;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#faq ul {
+  width: 678px ;
+  height: 135px;
+  overflow: hidden;
+  float: left;
+}
+#faq ul li {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  padding-left: 30px;
+  width: 100px;
+}
+#faq ul li dl {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+#faq ul li dl dt {
+  font-size: 15px;
+  display: block;
+  color: #956666;
+}
+#faq ul li dl dd {
+  line-height: 24px;
+  white-space: nowrap;
+}
+#faq .help {
+  width: 260px;
+  float: right;
+  background: #FFFFFF;
+  text-align: center;
+  height: 145px;
+  border-left: 1px solid #e4e4e4;
+}
+#faq .help ul {
+  width: 678px ;
+  height: 135px ;
+  overflow: hidden;
+  float: left;
+  font-size: 0;
+  white-space: nowrap;
+  padding: 0 0 10px 0;
+  margin-left: 0;
+}
+#faq .help ul li {
+  width: 79px !important;
+}
+#faq .help ul li h2 {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+#faq .help ul li .weixin-img1 {
+  width: 79px;
+  height: 79px;
+  display: block;
+  background: url(../img/images/weixinimg1_03.png) no-repeat;
+}
+#faq .help ul li p {
+  color: #000000;
+  margin-top: 10px;
 }
