@@ -5,6 +5,6 @@ $(function () {
 			i=0;
 		}
 		i++;
-		$("#datu li:eq("+i+")").show(50).siblings().hide(50);
-	},2000)
+		$("#datu li:eq("+i+")").show().siblings().hide();
+	},3000)
 })
