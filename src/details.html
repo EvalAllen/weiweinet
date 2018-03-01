@@ -3,17 +3,59 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/details.css"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/details.css"/>
+	    <script src="js/lib/jquery/jquery-3.3.1.js"></script>
+	   	<script type="text/javascript" src="js/detail_dianji.js" ></script>
 	</head>
 	<body>
-			<!--
+		<!--
         	头部
         -->
 		<div class="top">
 			<div class="mian toper">
-				<p class="fl"><a>送至: 北京<span class="xia"></span></a></p>
-				
+				<div class="fl p">
+					<a>送至: 北京<span class="xia"></span></a>	
+					
+				</div>
+				<div class="none-mess2">
+						<ol>
+							<li><a>北京</a></li>
+							<li><a>天津</a></li>
+							<li><a>河北省</a></li>
+							<li><a>山西省</a></li>
+							<li><a>内蒙古自治区</a></li>
+							<li><a>北京</a></li>
+							<li><a>天津</a></li>
+							<li><a>河北省</a></li>
+							<li><a>山西省</a></li>
+							<li><a>内蒙古自治区</a></li>
+							<li><a>北京</a></li>
+							<li><a>天津</a></li>
+							<li><a>河北省</a></li>
+							<li><a>山西省</a></li>
+							<li><a>内蒙古自治区</a></li>
+							<li><a>北京</a></li>
+							<li><a>天津</a></li>
+							<li><a>河北省</a></li>
+							<li><a>山西省</a></li>
+							<li><a>内蒙古自治区</a></li>
+							
+							<li><a>内蒙古自治区</a></li>
+							<li><a>北京</a></li>
+							<li><a>天津</a></li>
+							<li><a>河北省</a></li>
+							<li><a>山西省</a></li>
+							<li><a>内蒙古自治区</a></li>	
+							<li><a>内蒙古自治区</a></li>
+							<li><a>北京</a></li>
+							<li><a>天津</a></li>
+							<li><a>河北省</a></li>
+							<li><a>山西省</a></li>
+							<li><a>内蒙古自治区</a></li>	
+						</ol>
+					</div>
 				<ul class="fr">
 					<li><a><span></span>关注我们</a></li>
 					<li><a>客户服务<span class="xia"></span></a></li>
@@ -73,89 +115,396 @@
         	<div class="tu-left">
         		<span><em class="fl"></em><i class="fl">精选分类推荐</i></span>
         	</div>
-        	<ul>
+        	<ul id="dianji">
         		<li><a>首页</a></li>
-        		<li><a>建材</a></li>
+        		<li><a>建材</a>
+        			
+        		</li>      		        		
         		<li><a>家具家纺</a></li>
         		<li><a>品牌</a></li>
         		<li><a>店铺</a></li>
         		<li><a>装修攻略</a></li>
         		<li><a>装修图库</a></li>
+        		<div class="none-mss">
+        			<div class="none-mss-first fl">
+        				<h3><a>基础建材</a></h3>
+        				<ol>
+        					<li><a>其他辅料</a></li>
+        					<li><a>开关插座</a></li>
+        					<li><a>油漆涂料</a></li>
+        					<li><a>电线</a></li>       					
+        				</ol>
+        			</div>
+        			<div class="none-mss-first fl">
+        				<h3><a>瓷砖/大理石/陶瓷</a></h3>
+        				<ol>
+        					<li><a>其他辅料</a></li>
+        					<li><a>开关插座</a></li>
+        					<li><a>油漆涂料</a></li>
+        					<li><a>电线</a></li> 
+        					<li><a>大理石</a></li>
+        					<li><a>瓷砖辅料</a></li>
+        					<li><a>人造石</a></li>
+        					<li><a>花岗石</a></li> 
+        					<li><a>其他辅料</a></li>
+        					<li><a>开关插座</a></li>
+        					
+        				</ol>
+        			</div>
+        			<div class="none-mss-first fl">
+        				<h3><a>卫浴</a></h3>
+        				<ol>
+        					<li><a>其他辅料</a></li>
+        					<li><a>开关插座</a></li>
+        					<li><a>油漆涂料</a></li>
+        					<li><a>电线</a></li>       					
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>橱柜</a></h3>
+        				<ol>
+        					<li><a>整体橱柜</a></li>
+        					<li><a>柜体</a></li>
+        					<li><a>门板</a></li>
+        					<li><a>台面</a></li> 
+        					<li><a>橱柜配件</a></li>
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>淋浴房</a></h3>
+        				<ol>
+        					<li><a>定制淋浴房</a></li>
+        					
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>地板/榻榻米</a></h3>
+        				<ol>
+        					<li><a>实木地板</a></li>
+        					<li><a>强化复合地板</a></li>
+        					<li><a>木地板</a></li>
+        					<li><a>实木复合地板</a></li> 
+        					
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>地板/榻榻米</a></h3>
+        				<ol>
+        					<li><a>实木地板</a></li>
+        					<li><a>强化复合地板</a></li>
+        					<li><a>木地板</a></li>
+        					
+        					
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>淋浴房</a></h3>
+        				<ol>
+        					<li><a>定制淋浴房</a></li>
+        					
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>净水器/水处理</a></h3>
+        				<ol>
+        					<li><a>净水器/水处理</a></li>
+        					
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>定制楼梯</a></h3>
+        				<ol>
+        					<li><a>定制柜</a></li>
+        					<li><a>木质楼梯</a></li>
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>地板/榻榻米</a></h3>
+        				<ol>
+        					<li><a>实木地板</a></li>
+        					<li><a>强化复合地板</a></li>
+        					<li><a>木地板</a></li>
+        					
+        					
+        				</ol>
+        			</div>
+        			<div class="none-mss-two fl">
+        				<h3><a>地板/榻榻米</a></h3>
+        				<ol>
+        					<li><a>实木地板</a></li>
+        					<li><a>强化复合地板</a></li>
+        					<li><a>木地板</a></li>
+        					
+        					
+        				</ol>
+        			</div>
+        		</div>
+        		
         	</ul>
+        	
         	<div class="tu-right fr">
         		<img src="img/tu-right.png"/>
         	</div>
         </div>
+
+		<!--大图bufen-->
+		<div class="big-img mian" >
+			<img src="img/images/images/wdtu_03.png"/>
+		</div>
+
+		<div id="content" class="mian">
+			<!-- 商品图片-->
+			<div class="ncs-detail">
+				<!--放大镜效果-->
+				<div class="imageszoom-wrap">
+					<!--缩图开始-->
+					<div id="preview" class="spec-preview">
+						<span class="jqzoom">
+							<img jqimg="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_1280.png" src="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_360.png" alt="">
+						</span>
+					</div>
+					<div class="spec-scroll">
+						<a class="prev"><</a>
+							<a class="next">></a>
+						<div class="items">
+							<ul>
+								<li>
+									<img alt="" bimg="http://www.mallvv.com/data/upload/shop/store/goods/368/368_13430759_1280.png" src="http://www.mallvv.com/data/upload/shop/store/goods/368/368_13430759_360.png" >
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ncs-handle">
+						<a href="javascript:collect_goods('368','count','goods_collect');" class="favorite"><i></i>收藏商品<span>(<em nctype="goods_collect">0</em>)</span></a>
+					<a href="javascript:login_dialog();" title="举&nbsp;报" class="inform"><i></i>举&nbsp;报</a>
+					</div>
+				</div>
+				<div class="ncs-goods-summary">
+      <div class="name">
+        <span><b><font style="color:#333; font-size:18px">大将军陶瓷 优等大理石瓷砖 MSD8802P 800*800</font></b></span>
+        <!--h1>大将军陶瓷 优等大理石瓷砖 MSD8802P 800*800</h1-->
+        <strong class="good_num" style="display: inline-block;"><font color="#FF0000">限上海地区 买家预定前请先联系商家需求数量 商家后台调整价格和运费</font></strong> </div>
+      <div class="ncs-meta">
+        <div class="rate"> <!-- S 描述相符评分 --><a href="#ncGoodsRate">商品评分</a>
+          <div class="raty" data-score="5" title="很满意" style="width: 100px;"><img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="1" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="2" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="3" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="4" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="5" title="很满意"><input type="hidden" name="score" value="5" readonly="readonly"></div>
+          <!-- E 描述相符评分 --> </div>
+
+        <!-- S 商品参考价格 -->
+        <dl>
+          <dt>市&nbsp;场&nbsp;价：¥290.00</dt>
+       <!--   <dd class="cost-price"><strong>¥290.00</strong></dd>-->
+        </dl>
+        <!-- E 商品参考价格 -->
+        <!-- S 商品发布价格 -->
+        <dl>
+          <dt>商&nbsp;城&nbsp;价：<i class="cheng" style="font-weight: bolder;font-size: 25px;">¥220.00</i></dt>
+          <!--<dd class="price">
+                                    <strong>¥220.00</strong>
+                      </dd>-->
+        </dl>
+        <!-- E 商品发布价格 -->
+        <!-- S 促销 -->
+                <!-- E 促销 -->
+      </div>
+      <div class="ncs-plus">
+        <!-- S 物流运费  预售商品不显示物流 -->
+                <dl class="ncs-freight">
+          <dt>
+                        <!-- 如果买家承担运费 -->
+            <!-- 如果使用了运费模板 -->
+                        至<a href="javascript:void(0)" id="ncrecive">全国:卖家承担费用</a>：            <div class="ncs-freight-box" id="transport_pannel">
+                                  
+                                        </div>
+                                  </dt>
+          <!--<dd id="transport_price">
+                                    <span id="nc_kd">卖家承担运费</span>
+                                  </dd>-->
+          <dd style="color:red;display:none" id="loading_price">loading.....</dd>
+        </dl>
+                <!-- E 物流运费 --->
+
+        <!-- S 赠品 -->
+                <!-- S 赠品 -->
+      </div>
+            <div class="ncs-key">
+        <!-- S 商品规格值-->
+                <!-- E 商品规格值-->
+                                <!-- S 购买数量及库存 -->
+                <dl>
+          <dt>购买数量：</dt>
+          <dd class="ncs-figure-input">
+
+            <input type="text" name="" id="quantity" value="1" size="3" maxlength="6" class="text w30">
+                        <a href="javascript:void(0)" class="increase">+</a><a href="javascript:void(0)" class="decrease">-</a> <span>(当前库存<em nctype="goods_stock">9999</em>件            <!-- 虚拟商品限购数 -->
+                        )</span>          </dd>
+        </dl>
+                <!-- E 购买数量及库存 -->
+      </div>
+      <!-- S 购买按钮 -->
+        <div class="ncs-btn"><!-- S 提示已选规格及库存不足无法购买 -->
+          <div nctype="goods_prompt" class="ncs-point">
+                                  </div>
+          <!-- E 提示已选规格及库存不足无法购买 -->
+          <!-- S到货通知 -->
+                    <!-- E到货通知 -->
+          <div class="clear"></div>
+          
+          <!-- 预约 -->
+                    <!-- 立即购买-->
+          <a href="javascript:void(0);" nctype="buynow_submit" class="buynow " title="立即购买">立即购买</a>
+                    <!-- 加入购物车-->
+          <a href="javascript:void(0);" nctype="addcart_submit" class="addcart " title="添加购物车"><i class="icon-shopping-cart"></i>添加购物车</a>
+          
+          <!-- S 加入购物车弹出提示框 -->
+          <div class="ncs-cart-popup" style="display: none;">
+            <dl>
+              <dt>成功添加到购物车<a title="关闭" onclick="$('.ncs-cart-popup').css({'display':'none'});">X</a></dt>
+              <dd>购物车共有 <strong id="bold_num"></strong> 种商品 总金额为：<em id="bold_mly" class="saleP"></em></dd>
+              <dd class="btns"><a href="javascript:void(0);" class="ncs-btn-mini ncs-btn-green" onclick="location.href='http://www.mallvv.com/shop/index.php?act=cart'">查看购物车</a> <a href="javascript:void(0);" class="ncs-btn-mini" value="" onclick="$('.ncs-cart-popup').css({'display':'none'});">继续购物</a></dd>
+            </dl>
+          </div>
+          <!-- E 加入购物车弹出提示框 -->
+
+        </div>
+        <!-- E 购买按钮 -->
+            <!--E 商品信息 -->
+
+              </div>
+              <div class="ncs-info">
+  <div class="title">
+    <h4>大将军陶瓷旗舰店</h4>
+  </div>
+  <div class="content">
+
+    <dl class="all-rate">
+      <dt>综合评分：</dt>
+      <dd>
+        <div class="rating"><span style="width: 100%"></span></div>
+        <em>5</em>分</dd>
+    </dl>
+    <div class="ncs-detail-rate">
+      <h5><strong>店铺动态评分</strong>与行业相比</h5>
+      <ul>
+                <li> 描述相符<span class="credit">5 分</span> <span class="equal"><i></i>持平<em>----</em></span> </li>
+                <li> 服务态度<span class="credit">5 分</span> <span class="equal"><i></i>持平<em>----</em></span> </li>
+                <li> 发货速度<span class="credit">5 分</span> <span class="equal"><i></i>持平<em>----</em></span> </li>
+              </ul>
+    </div>
+
         
-        <!--
-        	大广告部分
-        -->
-        <div class="big-nav-wraper mian">
-        	<div class="big-nav ">
-        	<div class="top-list">
-        		<ul>
-        			<h3><a class="cheng">建材</a></h3>
-        			<br />
-        			<li><a>基础建材</a></li>
-        			<li><a>瓷砖/大理石/陶瓷</a></li>
-        			
-        			<li><a>卫浴</a></li>
-        			<li><a>集成吊顶</a></li>
-        			<li><a>橱柜</a></li>		
-        			<li><a>淋浴房</a></li><br />
-        			<li><a>地板/榻榻米</a></li>
-        			<li><a>移门衣柜</a></li>
-        			<li><a>墙纸</a></li>
-        			<li><a>门窗</a></li>
-        			<br />
-        			<li><a>净水器/水处理</a></li>
-        			<li><a>定制楼梯</a></li>
-        			<li><a>保险箱</a></li>
-        		</ul>
-        	</div>
-        	<div class="mid-list">
-        		<ul>
-        			<h3><a class="cheng">家具家纺</a></h3>
-        			<br />
-        			<li><a>基础建材</a></li>
-        			<li><a>瓷砖/大理石/陶瓷</a></li>
-        			
-        			<li><a>卫浴</a></li>
-        			<li><a>集成吊顶</a></li>
-        			<li><a>橱柜</a></li>		
-        			<li><a>淋浴房</a></li><br />
-        			<li><a>地板/榻榻米</a></li>
-        			<li><a>移门衣柜</a></li>
-        			<li><a>墙纸</a></li>
-        			<li><a>门窗</a></li>
-        			<br />
-        			<li><a>净水器/水处理</a></li>
-        			<li><a>定制楼梯</a></li>
-        			<li><a>保险箱</a></li>
-        		</ul>
-        	</div>
-        	<div class="top-list">
-        		<ul>
-        			<h3><a class="cheng">装修设计</a></h3>
-        			<br />
-        			<li><a>基础建材</a></li>
-        			<li><a>瓷砖/大理石/陶瓷</a></li>
-        			
-        			<li><a>卫浴</a></li>
-        			<li><a>集成吊顶</a></li>
-        			<li><a>橱柜</a></li>		
-        			<li><a>淋浴房</a></li><br />
-        			<li><a>地板/榻榻米</a></li>
-        			<li><a>移门衣柜</a></li>
-        			<li><a>墙纸</a></li>
-        			<li><a>门窗</a></li>
-        			<br />
-        			<li><a>净水器/水处理</a></li>
-        			<li><a>定制楼梯</a></li>
-        			<li><a>保险箱</a></li>
-        		</ul>
-        	</div>
-        </div>
-        </div>
-	</body>
+	<!-- 实名认证实体店认证后显示保障体系 -->	  
+	 	<dl class="messenger">	  
+	<dt>商户保障：</dt>
+   	   <dd>
+		        <span id="certMatershiti" class="text-hidden fl ml5" title="实体认证"></span>
+                	
+		        	
+		        <span id="certMaterzhping" class="text-hidden fl ml5" title="正品保障"></span>
+                	
+		        	
+		        	
+		        	
+		        <span id="certMaterxiaoxie" class="text-hidden fl ml5" title="消费者保障"></span>
+                	
+		      </dd>
+	  </dl>
+	
+    
+        <dl class="no-border">
+        <dt>联系电话：</dt>
+        <dd>13818758984</dd>
+    </dl>
+    
+    <div class="goto"><a href="http://www.mallvv.com/shop/shop-5566.html">进入商家店铺</a><a href="javascript:collect_store('5566','count','store_collect')">收藏店铺<em nctype="store_collect">1</em></a></div>
+   
+  </div>
+</div>
+<div class="clear"></div>
+			</div>
+			
+			
+			<!-- 主要内容部分-->
+			<div class="ncs-main-detail ">
+				 <div class="ncs-side-content fl">
+				 	<div class="side-content-header p9">
+				 	   <h5>大将军陶瓷店</h5>
+				    </div>
+				    <div class="side-content-middle">
+				    	<div class="title p9">
+				    		<h5>商品分类</h5>
+				    	</div>
+				    	<div class="ul p9">
+				    		<ul>
+				    			<li><a>按新品</a></li>
+				    			<li><a>按价格</a></li>
+				    			<li><a>按销量</a></li>
+				    			<li><a>按人气</a></li>
+				    		</ul>
+				    	</div>
+				    	<div class="input p9">
+				    		<input type="text" class="search-form fl" placeholder="搜索店内商品"/>
+				    		<input type="button"  class="fl button-search" value="搜索"/>
+				    	</div>
+				    	<div class="bottom">
+				    		<h5>全部商品</h5>
+				    	</div>
+				    </div>
+				 	<div class="side-content-bottom">
+				 		<div class="title p9">
+				 			<h5>商品排行</h5>
+				 		</div>
+				 		<div class="bottom-meun">
+				 			<ul>
+				 				<li class="fl"><a>热销商品排行</a></li>
+				 				<li class="fl"><a>热门收藏排行</a></li>
+				 			</ul>
+				 		</div>
+				 		<div class="side-img" >
+				 			<a><img src="img/images/images/side-img_03.png"/></a>
+				 			<a><img src="img/images/images/side-img_03.png"/></a>
+				 			<a><img src="img/images/images/side-img_03.png"/></a>
+				 			<a><img src="img/images/images/side-img_03.png"/></a>
+				 			<a><img src="img/images/images/side-img_03.png"/></a>
+				 		</div>
+				 		<div class="chakan">
+				 			<a>查看本店其他产品</a>
+				 		</div>
+				 	</div>
+				 </div>
+				<div class="ncs-main-content fr">
+					<div class="main-content-header">
+						<div class="content-header-top">
+							<ul >
+								<li ><a class="current">商品详情</a></li>
+								<li class=""><a class="">商品评价(0)</a></li>
+								<li class=""><a class="">销售记录(0)</a></li>
+								<li class=""><a class="">购买咨询</a></li>
+							</ul>
+						</div>
+						<div class="content-header-bottom">
+							<ul>
+								<li>商家货号:12716447</li>
+								<li>品牌:大将军</li>
+							</ul>
+						</div>
+					</div>
+					<div class="main-content-zhu">
+						<div class="content-img">
+							<a><img src="img/08.jpg" /></a>
+							<a><img src="img/09.jpg" /></a>
+							<a><img src="img/08.jpg" /></a>
+							<a><img src="img/10.jpg" /></a>
+							<a><img src="img/08.jpg" /></a>
+							<a><img src="img/09.jpg" /></a>
+							<a><img src="img/10.jpg" /></a>
+							<a><img src="img/08.jpg" /></a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <script type="text/javascript" src="js/dianji.js" ></script>    
+    </body>   
 </html>

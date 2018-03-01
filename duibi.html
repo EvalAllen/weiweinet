@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+<div id="content" class="wrapper sticky">
+    <input type="hidden" id="lockcompare" value="unlock">
+  <div class="ncs-detail">
+    <!-- S 商品图片 -->
+  <div class="imageszoom-wrap">
+  		<!--	放大镜效果-->
+    	
+		<!--缩图开始-->
+    <div id="preview" class="spec-preview">
+	    <span class="jqzoom">
+		   <img jqimg="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_1280.png" src="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_360.png" alt="">
+	    </span>
+    </div>
+    <div class="spec-scroll"> <a class="prev">&lt;</a> <a class="next">&gt;</a>
+      <div class="items">
+        <ul>
+	        	        <li>
+		        <img alt="" bimg="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_1280.png" src="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_360.png" onmousemove="preview(this);">
+	        </li>
+	                 <!-- <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b1.jpg" src="/shop/templates/default/images/tmp/s1.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b2.jpg" src="/shop/templates/default/images/tmp/s2.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b3.jpg" src="/shop/templates/default/images/tmp/s3.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b1.jpg" src="/shop/templates/default/images/tmp/s1.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b3.jpg" src="/shop/templates/default/images/tmp/s3.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b1.jpg" src="/shop/templates/default/images/tmp/s1.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b2.jpg" src="/shop/templates/default/images/tmp/s2.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b1.jpg" src="/shop/templates/default/images/tmp/s1.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b2.jpg" src="/shop/templates/default/images/tmp/s2.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b2.jpg" src="/shop/templates/default/images/tmp/s2.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b1.jpg" src="/shop/templates/default/images/tmp/s1.jpg" onmousemove="preview(this);"></li>
+          <li><img alt="佳能" bimg="/shop/templates/default/images/tmp/b2.jpg" src="/shop/templates/default/images/tmp/s2.jpg" onmousemove="preview(this);"></li>-->
+        </ul>
+      </div>
+    </div>
+    <!--缩图结束-->
+<link href="http://www.mallvv.com/shop/templates/default/css/imageszoom.css" rel="stylesheet" type="text/css">
+<!--<script type="text/javascript" src="http://www.mallvv.com/data/resource/js/imageszoom/jquery-1.4.2.min.js"></script>-->
+<script type="text/javascript" src="http://www.mallvv.com/data/resource/js/imageszoom/jquery.jqzoom.js"></script>
+<script type="text/javascript" src="http://www.mallvv.com/data/resource/js/imageszoom/base.js"></script>    	<!-- E 商品图片及收藏分享 -->
+    	<div class="ncs-handle">
+      <!-- S 分享 -->
+     <!-- <a href="javascript:void(0);" class="share" nc_type="sharegoods" data-param='{"gid":"364"}'><i></i>分享<span>(<em nc_type="sharecount_364">0)</em></span></a> -->
+      <!-- S 收藏 -->
+      <a href="javascript:collect_goods('364','count','goods_collect');" class="favorite"><i></i>收藏商品<span>(<em nctype="goods_collect">1</em>)</span></a>
+      <!-- S 对比 -->
+      <!--<a href="javascript:void(0);" class="compare" nc_type="compare_364" data-param='{"gid":"364"}'><i></i>加入对比</a>--><!-- S 举报 -->
+            <a href="javascript:login_dialog();" title="举&nbsp;报" class="inform"><i></i>举&nbsp;报</a>
+            <!-- End --> </div>
+  </div>
+   <!--放大镜之前开始-->
+  <!-- <div id="ncs-goods-picture" class="ncs-goods-picture image_zoom"></div>-->
+  <!--放大镜之前结束-->
+    <!-- S 商品基本信息 -->
+    <div class="ncs-goods-summary">
+      <div class="name">
+        <span><b><font style="color:#333; font-size:18px">大将军陶瓷 客厅 全抛釉地砖 MQ8806P 800*800</font></b></span>
+        <!--h1>大将军陶瓷 客厅 全抛釉地砖 MQ8806P 800*800</h1-->
+        <strong class="good_num" style="display: inline-block;"><font color="#FF0000">限上海地区 买家预定前请先联系商家需求数量 商家后台调整价格和运费</font></strong> </div>
+      <div class="ncs-meta">
+        <div class="rate"> <!-- S 描述相符评分 --><a href="#ncGoodsRate">商品评分</a>
+          <div class="raty" data-score="5" title="很满意" style="width: 100px;"><img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="1" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="2" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="3" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="4" title="很满意">&nbsp;<img src="http://www.mallvv.com/data/resource/js/jquery.raty/img/star-on.png" alt="5" title="很满意"><input type="hidden" name="score" value="5" readonly="readonly"></div>
+          <!-- E 描述相符评分 --> </div>
+
+        <!-- S 商品参考价格 -->
+        <dl>
+          <dt>市&nbsp;场&nbsp;价：</dt>
+          <dd class="cost-price"><strong>¥230.00</strong></dd>
+        </dl>
+        <!-- E 商品参考价格 -->
+        <!-- S 商品发布价格 -->
+        <dl>
+          <dt>商&nbsp;城&nbsp;价：</dt>
+          <dd class="price">
+                                    <strong>¥193.33</strong>
+                      </dd>
+        </dl>
+        <!-- E 商品发布价格 -->
+        <!-- S 促销 -->
+                <!-- E 促销 -->
+      </div>
+      <div class="ncs-plus">
+        <!-- S 物流运费  预售商品不显示物流 -->
+                <dl class="ncs-freight">
+          <dt>
+                        <!-- 如果买家承担运费 -->
+            <!-- 如果使用了运费模板 -->
+                        至<a href="javascript:void(0)" id="ncrecive">全国</a>：            <div class="ncs-freight-box" id="transport_pannel">
+                                          <a href="javascript:void(0)" nctype="1">北京</a>
+                            <a href="javascript:void(0)" nctype="2">天津</a>
+                            <a href="javascript:void(0)" nctype="3">河北</a>
+                            <a href="javascript:void(0)" nctype="4">山西</a>
+                            <a href="javascript:void(0)" nctype="5">内蒙古</a>
+                            <a href="javascript:void(0)" nctype="6">辽宁</a>
+                            <a href="javascript:void(0)" nctype="7">吉林</a>
+                            <a href="javascript:void(0)" nctype="8">黑龙江</a>
+                            <a href="javascript:void(0)" nctype="9">上海</a>
+                            <a href="javascript:void(0)" nctype="10">江苏</a>
+                            <a href="javascript:void(0)" nctype="11">浙江</a>
+                            <a href="javascript:void(0)" nctype="12">安徽</a>
+                            <a href="javascript:void(0)" nctype="13">福建</a>
+                            <a href="javascript:void(0)" nctype="14">江西</a>
+                            <a href="javascript:void(0)" nctype="15">山东</a>
+                            <a href="javascript:void(0)" nctype="16">河南</a>
+                            <a href="javascript:void(0)" nctype="17">湖北</a>
+                            <a href="javascript:void(0)" nctype="18">湖南</a>
+                            <a href="javascript:void(0)" nctype="19">广东</a>
+                            <a href="javascript:void(0)" nctype="20">广西</a>
+                            <a href="javascript:void(0)" nctype="21">海南</a>
+                            <a href="javascript:void(0)" nctype="22">重庆</a>
+                            <a href="javascript:void(0)" nctype="23">四川</a>
+                            <a href="javascript:void(0)" nctype="24">贵州</a>
+                            <a href="javascript:void(0)" nctype="25">云南</a>
+                            <a href="javascript:void(0)" nctype="26">西藏</a>
+                            <a href="javascript:void(0)" nctype="27">陕西</a>
+                            <a href="javascript:void(0)" nctype="28">甘肃</a>
+                            <a href="javascript:void(0)" nctype="29">青海</a>
+                            <a href="javascript:void(0)" nctype="30">宁夏</a>
+                            <a href="javascript:void(0)" nctype="31">新疆</a>
+                            <a href="javascript:void(0)" nctype="32">台湾</a>
+                            <a href="javascript:void(0)" nctype="33">香港</a>
+                            <a href="javascript:void(0)" nctype="34">澳门</a>
+                            <a href="javascript:void(0)" nctype="35">海外</a>
+                                        </div>
+                                  </dt>
+          <dd id="transport_price">
+                                    <span id="nc_kd">卖家承担运费</span>
+                                  </dd>
+          <dd style="color:red;display:none" id="loading_price">loading.....</dd>
+        </dl>
+                <!-- E 物流运费 --->
+
+        <!-- S 赠品 -->
+                <!-- S 赠品 -->
+      </div>
+            <div class="ncs-key">
+        <!-- S 商品规格值-->
+                <!-- E 商品规格值-->
+                                <!-- S 购买数量及库存 -->
+                <dl>
+          <dt>购买数量：</dt>
+          <dd class="ncs-figure-input">
+
+            <input type="text" name="" id="quantity" value="1" size="3" maxlength="6" class="text w30">
+                        <a href="javascript:void(0)" class="increase">+</a><a href="javascript:void(0)" class="decrease">-</a> <span>(当前库存<em nctype="goods_stock">9997</em>件            <!-- 虚拟商品限购数 -->
+                        )</span>          </dd>
+        </dl>
+                <!-- E 购买数量及库存 -->
+      </div>
+      <!-- S 购买按钮 -->
+        <div class="ncs-btn"><!-- S 提示已选规格及库存不足无法购买 -->
+          <div nctype="goods_prompt" class="ncs-point">
+                                  </div>
+          <!-- E 提示已选规格及库存不足无法购买 -->
+          <!-- S到货通知 -->
+                    <!-- E到货通知 -->
+          <div class="clear"></div>
+          
+          <!-- 预约 -->
+                    <!-- 立即购买-->
+          <a href="javascript:void(0);" nctype="buynow_submit" class="buynow " title="立即购买">立即购买</a>
+                    <!-- 加入购物车-->
+          <a href="javascript:void(0);" nctype="addcart_submit" class="addcart " title="添加购物车"><i class="icon-shopping-cart"></i>添加购物车</a>
+          
+          <!-- S 加入购物车弹出提示框 -->
+          <div class="ncs-cart-popup">
+            <dl>
+              <dt>成功添加到购物车<a title="关闭" onclick="$('.ncs-cart-popup').css({'display':'none'});">X</a></dt>
+              <dd>购物车共有 <strong id="bold_num"></strong> 种商品 总金额为：<em id="bold_mly" class="saleP"></em></dd>
+              <dd class="btns"><a href="javascript:void(0);" class="ncs-btn-mini ncs-btn-green" onclick="location.href='http://www.mallvv.com/shop/index.php?act=cart'">查看购物车</a> <a href="javascript:void(0);" class="ncs-btn-mini" value="" onclick="$('.ncs-cart-popup').css({'display':'none'});">继续购物</a></dd>
+            </dl>
+          </div>
+          <!-- E 加入购物车弹出提示框 -->
+
+        </div>
+        <!-- E 购买按钮 -->
+            <!--E 商品信息 -->
+
+    </div>
+    
+    
+
+    <!--S 店铺信息-->
+      <!--店铺基本信息 S-->
+
+<div class="ncs-info">
+  <div class="title">
+    <h4>大将军陶瓷旗舰店</h4>
+  </div>
+  <div class="content">
+
+    <dl class="all-rate">
+      <dt>综合评分：</dt>
+      <dd>
+        <div class="rating"><span style="width: 100%"></span></div>
+        <em>5</em>分</dd>
+    </dl>
+    <div class="ncs-detail-rate">
+      <h5><strong>店铺动态评分</strong>与行业相比</h5>
+      <ul>
+                <li> 描述相符<span class="credit">5 分</span> <span class="equal"><i></i>持平<em>----</em></span> </li>
+                <li> 服务态度<span class="credit">5 分</span> <span class="equal"><i></i>持平<em>----</em></span> </li>
+                <li> 发货速度<span class="credit">5 分</span> <span class="equal"><i></i>持平<em>----</em></span> </li>
+              </ul>
+    </div>
+
+        
+	<!-- 实名认证实体店认证后显示保障体系 -->	  
+	 	<dl class="messenger">	  
+	<dt>商户保障：</dt>
+   	   <dd>
+		        <span id="certMatershiti" class="text-hidden fl ml5" title="实体认证"></span>
+                	
+		        	
+		        <span id="certMaterzhping" class="text-hidden fl ml5" title="正品保障"></span>
+                	
+		        	
+		        	
+		        	
+		        <span id="certMaterxiaoxie" class="text-hidden fl ml5" title="消费者保障"></span>
+                	
+		      </dd>
+	  </dl>
+	  	  
+	<!--保证金金额-->
+	    <!--<dl class="messenger">	  
+      <dt>店铺资质：</dt>
+      <dd id="certMaterzizhi"><span></span>2000 
+        元  
+      </dd>
+	 </dl> -->
+		  
+    
+        <dl class="no-border">
+        <dt>联系电话：</dt>
+        <dd>13818758984</dd>
+    </dl>
+        <!--<dl class="no-border">
+        <dt>公司名称：</dt>
+        <dd></dd>
+    </dl>
+    <dl>
+        <dt>公司地址：</dt>
+        <dd>上海	上海市</dd>
+    </dl>-->
+
+    <div class="goto"><a href="http://www.mallvv.com/shop/shop-5566.html">进入商家店铺</a><a href="javascript:collect_store('5566','count','store_collect')">收藏店铺<em nctype="store_collect">1</em></a></div>
+    <!--<div class="shop-other" id="shop-other">
+    <ul>
+      <li class="ncs-info-btn-map"><a href="javascript:void(0)" class="pngFix"><span>店铺地图</span><b></b>
+        <div class="ncs-info-map" id="map_container" style="width:208px;height:208px;"></div>
+        </a></li>-->
+		<!-- 店铺二维码//zmr>v30 -->
+      <!--<li class="ncs-info-btn-qrcode"><a href="javascript:void(0)" class="pngFix"><span>店铺二维码</span><b></b> 
+        <p class="ncs-info-qrcode"><img src="http://www.mallvv.com/data/upload/shop/store/5566/5566_store.png" title="店铺原始地http://www.mallvv.com/shop/shop_view-5566-0-0-0-0.html" style="width:208px;height:208px"></p>
+        </a></li>
+    </ul>
+    </div> -->
+  </div>
+</div>
+<!--店铺基本信息 E--> 
+<script type="text/javascript">
+var cityName = "上海";
+var address = "上海	上海市";
+var store_name = ""; 
+function initialize() {
+	map = new BMap.Map("map_container");
+	localCity = new BMap.LocalCity();
+	
+	map.enableScrollWheelZoom(); 
+	localCity.get(function(cityResult){
+	  if (cityResult) {
+	  	var level = cityResult.level;
+	  	if (level < 13) level = 13;
+	    map.centerAndZoom(cityResult.center, level);
+	    cityResultName = cityResult.name;
+	    if (cityResultName.indexOf(cityName) >= 0) cityName = cityResult.name;
+	    	    	getPoint();
+	    	  }
+	});
+}
+ 
+function loadScript() {
+	var script = document.createElement("script");
+	script.src = "http://api.map.baidu.com/api?v=1.2&callback=initialize";
+	document.body.appendChild(script);
+}
+function getPoint(){
+	var myGeo = new BMap.Geocoder();
+	myGeo.getPoint(address, function(point){
+	  if (point) {
+	    setPoint(point);
+	  }
+	}, cityName);
+}
+function setPoint(point){
+	  if (point) {
+	    map.centerAndZoom(point, 16);
+	    var marker = new BMap.Marker(point);
+	    map.addOverlay(marker);
+	  }
+}
+
+// 当鼠标放在店铺地图上再加载百度地图。
+$(function(){
+	$('.ncs-info-btn-map').one('mouseover',function(){
+		loadScript();
+	});
+});
+</script> 
+
+<script>
+$(function(){
+	var store_id = "5566";
+	var goods_id = "364";
+	var act = "goods";
+	var op  = "index";
+	$.getJSON("index.php?act=show_store&op=ajax_flowstat_record",{store_id:store_id,goods_id:goods_id,act_param:act,op_param:op});
+});
+</script>
+   
+    <!--E 店铺信息 -->
+    <div class="clear"></div>
+  </div>
+  <div class="ncs-goods-layout expanded">
+    <div class="ncs-goods-main" id="main-nav-holder">
+      <!-- S 优惠套装 -->
+      <div class="ncs-promotion" id="nc-bundling" style="display:none;"></div>
+      <!-- E 优惠套装 -->
+      <div class="tabbar pngFix" id="main-nav">
+        <div class="ncs-goods-title-nav">
+          <ul id="categorymenu">
+            <li class="current"><a id="tabGoodsIntro" href="#content">商品详情</a></li>
+            <li><a id="tabGoodsRate" href="#content">商品评价<em>(0)</em></a></li>
+            <li><a id="tabGoodsTraded" href="#content">销售记录<em>(2)</em></a></li>
+            <li><a id="tabGuestbook" href="#content">购买咨询</a></li>
+          </ul>
+          <div class="switch-bar"><a href="javascript:void(0)" id="fold">&nbsp;</a></div>
+        </div>
+      </div>
+      <div class="ncs-intro">
+        <div class="content bd" id="ncGoodsIntro">
+
+          <!--S 满就送 -->
+                    <!--E 满就送 -->
+                    <ul class="nc-goods-sort">
+            <li>商家货号：12716460</li>
+            <li>品牌：大将军</li>                      </ul>
+                      <div class="ncs-goods-info-content">
+                        <div class="top-template"><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05263859014164372_1280.jpg" alt="image"></div>
+                        <div class="default"><div id="description">
+</div>
+<img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05264085774235746_1280.jpg" alt="image"></div>
+                        <div class="bottom-template"><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05264061436685216_1280.jpg" alt="image"><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05264061462324389_1280.jpg" alt="image"><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05264061488360272_1280.jpg" alt="image"><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05264061514045202_1280.jpg" alt="image"><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05264061541630361_1280.jpg" alt="image"><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05264061572865386_1280.jpg" alt="image"></div>
+                      </div>
+        </div>
+      </div>
+      <div class="ncs-comment">
+        <div class="ncs-goods-title-bar hd">
+          <h4><a href="javascript:void(0);">商品评价</a></h4>
+        </div>
+        <div class="ncs-goods-info-content bd" id="ncGoodsRate">
+          <div class="top">
+            <div class="rate">
+              <p><strong>100</strong><sub>%</sub>好评</p>
+              <span>共有0人参与评分</span>
+            </div>
+            <div class="percent">
+              <dl>
+                <dt>好评<em>(100%)</em></dt>
+                <dd><i style="width: 100%"></i></dd>
+              </dl>
+              <dl>
+                <dt>中评<em>(0%)</em></dt>
+                <dd><i style="width: 0%"></i></dd>
+              </dl>
+              <dl>
+                <dt>差评<em>(0%)</em></dt>
+                <dd><i style="width: 0%"></i></dd>
+              </dl>
+            </div>
+            <div class="btns"><span>您可对已购商品进行评价</span>
+              <p><a href="http://www.mallvv.com/shop/member_order-index.html" class="ncs-btn ncs-btn-red" target="_blank"><i class="icon-comment-alt"></i>评价商品</a></p>
+            </div>
+          </div>
+          <div class="ncs-goods-title-nav">
+            <ul id="comment_tab">
+              <li data-type="all" class="current"><a href="javascript:void(0);">商品评价(0)</a></li>
+              <li data-type="1"><a href="javascript:void(0);">好评(0)</a></li>
+              <li data-type="2"><a href="javascript:void(0);">中评(0)</a></li>
+              <li data-type="3"><a href="javascript:void(0);">差评(0)</a></li>
+            </ul>
+          </div>
+          <!-- 商品评价内容部分 -->
+          <div id="goodseval" class="ncs-commend-main"><div class="ncs-norecord">暂无符合条件的数据记录</div>
+ 
+</div>
+        </div>
+      </div>
+      <div class="ncg-salelog">
+        <div class="ncs-goods-title-bar hd">
+          <h4><a href="javascript:void(0);">销售记录</a></h4>
+        </div>
+        <div class="ncs-goods-info-content bd" id="ncGoodsTraded">
+          <div class="top">
+            <div class="price">商&nbsp;城&nbsp;价<strong>193.33</strong>元<span>购买的价格不同可能是由于店铺往期促销活动引起的，详情可以咨询卖家</span></div>
+          </div>
+          <!-- 成交记录内容部分 -->
+          <div id="salelog_demo" class="ncs-loading">
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mt10">
+  <thead>
+    <tr>
+      <th class="w200">买家</th>
+      <th class="w100">购买价</th>
+      <th class="">购买数量</th>
+      <th class="w200">购买时间</th>
+    </tr>
+  </thead>
+    <tbody>
+    <tr>
+      <td colspan="10" class="ncs-norecord">暂无符合条件的数据记录</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
+        </div>
+      </div>
+      <div class="ncs-consult">
+        <div class="ncs-goods-title-bar hd">
+          <h4><a href="javascript:void(0);">购买咨询</a></h4>
+        </div>
+        <div class="ncs-goods-info-content bd" id="ncGuestbook">
+          <!-- 咨询留言内容部分 -->
+          <div id="consulting_demo" class="ncs-loading">
+
+<div class="top" style="overflow: hidden;">
+  <div class="ncs-cosult-tips"> <i></i>
+    <p>因厂家更改商品包装、场地、附配件等不做提前通知，且每位咨询者购买、提问时间等不同。为此，客服给到的回复仅对提问者3天内有效，其他网友仅供参考！给您带来的不变还请谅解，谢谢！</p>
+  </div>
+  <div class="ncs-cosult-askbtn"><a href="http://www.mallvv.com/shop/goods-consulting_list-goods_id-364.html#askQuestion" target="_blank" class="ncs-btn ncs-btn-red">我要提问</a></div>
+</div>
+<div class="ncs-goods-title-nav">
+  <ul id="consulting_tab">
+    <li class="current"><a href="http://www.mallvv.com/shop/goods-consulting-goods_id-364-store_id-5566.html">全部</a></li>
+            <li class=""><a href="http://www.mallvv.com/shop/goods-consulting-goods_id-364-ctid-1-store_id-5566.html">商品咨询</a></li>
+        <li class=""><a href="http://www.mallvv.com/shop/goods-consulting-goods_id-364-ctid-2-store_id-5566.html">支付问题</a></li>
+        <li class=""><a href="http://www.mallvv.com/shop/goods-consulting-goods_id-364-ctid-3-store_id-5566.html">发票及保修</a></li>
+        <li class=""><a href="http://www.mallvv.com/shop/goods-consulting-goods_id-364-ctid-4-store_id-5566.html">促销及赠品</a></li>
+          </ul>
+</div>
+<div class="ncs-cosult-main">
+    <div class="ncs-norecord">还没有咨询内容</div>
+    
+</div>
+</div>
+        </div>
+      </div>
+          </div>
+    <div class="ncs-sidebar">
+      <!--<div class="ncs-sidebar-container">
+        <div class="title">
+          <h4>商品二维码</h4>
+        </div>
+        <div class="content">
+          <div class="ncs-goods-code">
+            <p><img src="http://www.mallvv.com/data/upload/shop/store/5566/364.png"  title="商品原始地址：http://www.mallvv.com/shop/item-364.html"></p>
+            <span class="ncs-goods-code-note"><i></i>扫描二维码，手机查看分享</span> </div>
+        </div>
+      </div>-->
+      <div class="ncs-message-bar">
+  <div class="default">
+    <h5>大将军陶瓷旗舰店</h5>
+    <span member_id="3045815"></span>
+          </div>
+  </div>
+      <!--//zmr>v30-->
+<div class="ncs-sidebar-container ncs-class-bar">
+  <div class="title">
+    <h4>商品分类</h4>
+  </div>
+  <div class="content">
+    <p><span><a href="http://www.mallvv.com/shop/shop_view-5566-0-1-2-0.html">按新品</a></span><span><a href="http://www.mallvv.com/shop/shop_view-5566-0-2-2-0.html">按价格</a></span><span><a href="http://www.mallvv.com/shop/shop_view-5566-0-3-2-0.html">按销量</a></span><span><a href="http://www.mallvv.com/shop/shop_view-5566-0-5-2-0.html">按人气</a></span></p>
+    <div class="ncs-search">
+      <form id="" name="searchShop" method="get" action="index.php">
+        <input type="hidden" name="act" value="show_store">
+        <input type="hidden" name="op" value="goods_all">
+        <input type="hidden" name="store_id" value="5566">
+        <input type="text" class="text w120" name="inkeyword" value="" placeholder="搜索店内商品">
+        <a href="javascript:document.searchShop.submit();" class="ncs-btn">搜索</a>
+      </form>
+    </div>
+    <ul class="ncs-submenu">
+      <li><span class="ico-none"><em>-</em></span><a href="http://www.mallvv.com/shop/shop_view-5566-0-0-0-0.html">全部商品</a></li>
+                        <!--li> <span class="ico-none"><em>-</em></span><a href="http://www.mallvv.com/shop/shop_view-5566-0-0-0-0.html"></a></li-->
+                        <!--li> <span class="ico-none"><em>-</em></span><a href="http://www.mallvv.com/shop/shop_view-5566-0-0-0-0.html"></a></li-->
+                      </ul>
+    
+  </div>
+</div>
+
+
+
+
+
+
+<!--//zmr>>>-->
+<!--<div class="ncs-sidebar-container">
+        <div class="title">
+          <h4>店铺二维码</h4>
+        </div>
+        <div class="content">
+         <div class="ncs-goods-code">
+            <p><img src="http://www.mallvv.com/data/upload/shop/store/5566/5566_store.png"  title="店铺原始地http://www.mallvv.com/shop/shop_view-5566-0-0-0-0.html"></p>
+            <span class="ncs-goods-code-note"><i></i>扫描二维码，手机查看分享</span> </div>
+        </div>
+      </div>-->
+      
+<!--//mmr<<<-->
+
+
+
+
+
+
+<div class="ncs-sidebar-container ncs-top-bar">
+  <div class="title">
+    <h4>商品排行</h4>
+  </div>
+  <div class="content">
+    <ul class="ncs-top-tab pngFix">
+      <li id="hot_sales_tab" class="current"><a href="http://www.mallvv.com/shop/shop_view-5566-0-3-2-0.html">热销商品排行</a></li>
+      <li id="hot_collect_tab"><a href="http://www.mallvv.com/shop/shop_view-5566-0-4-2-0.html">热门收藏排行</a></li>
+    </ul>
+    <div id="hot_sales_list" class="ncs-top-panel">
+            <ol>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-364.html">大将军陶瓷 客厅 全抛釉地砖 MQ8806P 800*800</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-364.html"><span class="thumb size40"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_60.png" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_240.png" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 客厅 全抛釉地砖 MQ8806P 800*800" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">193.33</dd>
+            <dd class="selled pngFix">售出：<strong>2</strong>笔</dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-361.html">大将军陶瓷 防滑瓷片釉面砖 2-P48003 400*800</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-361.html"><span class="thumb size40"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212177200371219_60.jpg" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212177200371219_240.jpg" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 防滑瓷片釉面砖 2-P48003 400*800" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">92.66</dd>
+            <dd class="selled pngFix">售出：<strong>0</strong>笔</dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-362.html">大将军陶瓷 欧式仿石纹 厨卫防滑瓷砖 2-PY34137 300*450</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-362.html"><span class="thumb size40"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212158831521328_60.jpg" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212158831521328_240.jpg" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 欧式仿石纹 厨卫防滑瓷砖 2-PY34137 300*450" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">26.00</dd>
+            <dd class="selled pngFix">售出：<strong>0</strong>笔</dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-363.html">大将军陶瓷 釉面砖 浴室防滑 卫生间瓷片2-P66048 300*600</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-363.html"><span class="thumb size40"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/363/363_13430758_60.png" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/363/363_13430758_240.png" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 釉面砖 浴室防滑 卫生间瓷片2-P66048 300*600" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">39.33</dd>
+            <dd class="selled pngFix">售出：<strong>0</strong>笔</dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-365.html">大将军陶瓷 明星玉系列 室内抛光砖 M66101 600*600</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-365.html"><span class="thumb size40"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/365/365_13430784_60.png" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/365/365_13430784_240.png" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 明星玉系列 室内抛光砖 M66101 600*600" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">88.33</dd>
+            <dd class="selled pngFix">售出：<strong>0</strong>笔</dd>
+          </dl>
+        </li>
+              </ol>
+          </div>
+    <div id="hot_collect_list" class="ncs-top-panel hide">
+            <ol>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-364.html">大将军陶瓷 客厅 全抛釉地砖 MQ8806P 800*800</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-364.html" title=""><span class="thumb size40"><i></i> <img src="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_60.png" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_240.png" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 客厅 全抛釉地砖 MQ8806P 800*800" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">193.33</dd>
+            <dd class="collection pngFix">收藏人气：<strong>1</strong></dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-361.html">大将军陶瓷 防滑瓷片釉面砖 2-P48003 400*800</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-361.html" title=""><span class="thumb size40"><i></i> <img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212177200371219_60.jpg" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212177200371219_240.jpg" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 防滑瓷片釉面砖 2-P48003 400*800" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">92.66</dd>
+            <dd class="collection pngFix">收藏人气：<strong>0</strong></dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-362.html">大将军陶瓷 欧式仿石纹 厨卫防滑瓷砖 2-PY34137 300*450</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-362.html" title=""><span class="thumb size40"><i></i> <img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212158831521328_60.jpg" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/5566/5566_05212158831521328_240.jpg" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 欧式仿石纹 厨卫防滑瓷砖 2-PY34137 300*450" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">26.00</dd>
+            <dd class="collection pngFix">收藏人气：<strong>0</strong></dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-363.html">大将军陶瓷 釉面砖 浴室防滑 卫生间瓷片2-P66048 300*600</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-363.html" title=""><span class="thumb size40"><i></i> <img src="http://www.mallvv.com/data/upload/shop/store/goods/363/363_13430758_60.png" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/363/363_13430758_240.png" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 釉面砖 浴室防滑 卫生间瓷片2-P66048 300*600" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">39.33</dd>
+            <dd class="collection pngFix">收藏人气：<strong>0</strong></dd>
+          </dl>
+        </li>
+                <li>
+          <dl>
+            <dt><a href="http://www.mallvv.com/shop/item-365.html">大将军陶瓷 明星玉系列 室内抛光砖 M66101 600*600</a></dt>
+            <dd class="goods-pic"><a href="http://www.mallvv.com/shop/item-365.html" title=""><span class="thumb size40"><i></i> <img src="http://www.mallvv.com/data/upload/shop/store/goods/365/365_13430784_60.png" onload="javascript:DrawImage(this,40,40);" width="40" height="40"></span></a>
+              <p><span class="thumb size100"><i></i><img src="http://www.mallvv.com/data/upload/shop/store/goods/365/365_13430784_240.png" onload="javascript:DrawImage(this,100,100);" title="大将军陶瓷 明星玉系列 室内抛光砖 M66101 600*600" width="100" height="100"><big></big><small></small></span></p>
+            </dd>
+            <dd class="price pngFix">88.33</dd>
+            <dd class="collection pngFix">收藏人气：<strong>0</strong></dd>
+          </dl>
+        </li>
+              </ol>
+          </div>
+    <p><a href="http://www.mallvv.com/shop/shop_view-5566-0-0-0-0.html">查看本店其他商品</a></p>
+  </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        //热销排行切换
+        $('#hot_sales_tab').on('mouseenter', function() {
+            $(this).addClass('current');
+            $('#hot_collect_tab').removeClass('current');
+            $('#hot_sales_list').removeClass('hide');
+            $('#hot_collect_list').addClass('hide');
+        });
+        $('#hot_collect_tab').on('mouseenter', function() {
+            $(this).addClass('current');
+            $('#hot_sales_tab').removeClass('current');
+            $('#hot_sales_list').addClass('hide');
+            $('#hot_collect_list').removeClass('hide');
+        });
+    });
+    /** left.php **/
+    // 商品分类
+    function class_list(obj){
+    	var stc_id=$(obj).attr('span_id');
+    	var span_class=$(obj).attr('class');
+    	if(span_class=='ico-block') {
+    		$("#stc_"+stc_id).show();
+    		$(obj).html('<em>-</em>');
+    		$(obj).attr('class','ico-none');
+    	}else{
+    		$("#stc_"+stc_id).hide();
+    		$(obj).html('<em>+</em>');
+    		$(obj).attr('class','ico-block');
+    	}
+    }
+</script> 
+    </div>
+  </div>
+</div>
+	
+	</body>
+</html>
