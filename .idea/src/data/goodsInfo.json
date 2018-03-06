@@ -1,0 +1,36 @@
+[
+  {
+    "p_id": "1",
+    "p_name": "\u79cb\u88e4",
+    "p_price": "99",
+    "p_number": "1000",
+    "p_oldprice": "199",
+    "p_describe": "\u4f60\u6700\u7231\u7684\u79cb\u88e4"
+
+    "imgs": [
+      {
+        "img_paht": ".\/images\/4.jpg"
+      },
+      {
+        "img_paht": ".\/images\/3.jpg"
+      }
+    ]
+  },
+  {
+    "p_id": "2",
+    "p_name": "\u79cb\u88e4",
+    "p_price": "99",
+    "p_number": "1000",
+    "p_oldprice": "199",
+    "p_describe": "\u4f60\u6700\u7231\u7684\u79cb\u88e4"
+
+    "imgs": [
+      {
+        "img_paht": ".\/images\/2.jpg"
+      },
+      {
+        "img_paht": ".\/images\/1.jpg"
+      }
+    ]
+  }
+]

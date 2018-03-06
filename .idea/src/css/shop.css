@@ -1,0 +1,57 @@
+.messenger {
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  background: #f7f7f7;
+  margin-bottom: 20px;
+}
+.messenger ul li {
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 18px;
+  border-right: 1px solid #CCCCCC;
+}
+.messenger ul li:nth-child(4) a:nth-child(4) {
+  display: block;
+  border: 1px solid #CCCCCC;
+}
+.messenger p {
+  line-height: 40px;
+  margin-right: 10px;
+}
+.go-shop ul {
+  overflow: hidden;
+  display: flex;
+  align-content: space-around;
+  flex-flow: wrap;
+}
+.go-shop ul li:hover {
+  border: 1px solid #ffac00;
+}
+.go-shop ul li {
+  width: 230px;
+  height: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #CCCCCC;
+  margin-right: 8px;
+}
+.go-shop ul li .cheng {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.go-shop ul li p {
+  padding-left: 10px;
+}
+.go-shop ul li p span {
+  position: relative;
+  right: -70px;
+  display: inline-block;
+}
+.go-shop ul li .img {
+  height: 230px;
+  width: 230px;
+}
+.go-shop ul li .wei {
+  height: 20px;
+  width: 20px;
+}

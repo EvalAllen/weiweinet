@@ -1,0 +1,106 @@
+.register-wrap .register-bt {
+  width: 100%;
+  height: 35px;
+  border-bottom: 2px solid #ddd;
+  margin: 60px 0;
+  font-size: 0;
+}
+.register-wrap .register-bt ul {
+  margin: 0px auto;
+  text-align: center;
+  width: 875px;
+}
+.register-wrap .register-bt ul li.register-bt-active {
+  border-bottom: 2px solid #ff9801;
+}
+.register-wrap .register-bt ul li {
+  min-width: 100px;
+  padding: 0 50px;
+  text-align: center;
+  color: #333;
+  padding-bottom: 10px;
+  margin: 0 30px;
+  float: left;
+  display: inline;
+}
+.register-wrap .register-bt ul li span {
+  background: #ff9801;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  display: block;
+  float: left;
+  border-radius: 100%;
+  font-size: 14px;
+}
+.register-wrap .register-bt ul li p {
+  float: left;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.register-wrap form div:nth-child(3) {
+  width: 260px;
+  position: relative;
+  right: 67px;
+}
+.register-wrap form div:nth-child(4) {
+  border: none;
+  outline: none;
+}
+.register-wrap form div:nth-child(5) {
+  background: #ffac00;
+}
+.register-wrap form div:nth-child(5) input {
+  background: #ffac00;
+  position: relative;
+  top: -2px;
+  color: #FFFFFF;
+}
+.register-wrap form div {
+  height: 25px;
+  border: 1px solid #DDDDDD;
+  width: 394px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+.register-wrap form div input {
+  border: none;
+  outline: none;
+  width: 190px;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+.register-wrap form div #agree {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background: green;
+}
+.register-wrap form div p {
+  position: relative;
+  top: 3px;
+}
+.register-wrap form div .register-icon1 {
+  background: url(../img/images/images/register-img_06.png) no-repeat;
+}
+.register-wrap form div .register-icon2 {
+  background: url(../img/images/images/register-img_11.png) no-repeat;
+}
+.register-wrap form div i {
+  display: block;
+  height: 24px ;
+  width: 24px;
+  float: left;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-right: 10px;
+  border-right: 1px solid #DDDDDD;
+}
+.register-wrap form div .button-break {
+  width: 100%;
+  height: 100%;
+}

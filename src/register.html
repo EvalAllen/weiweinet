@@ -6,6 +6,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/register-details.css"/>
 	<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+
+    <script src="js/lib/require.js" data-main="js/register"></script>
 </head>
 <body>
 
@@ -49,22 +53,21 @@
 	<form>
 		<div class="">
 			<i class="register-icon1"></i>
-			<input type="text" id="mobile" placeholder="请输入手机号" class="valid"/>
+			<input type="text" name="u_name" id="u_name" placeholder="姓名" class="valid"/>
 			<label></label>
 		</div>
-		<div class="">		
-                <i class="register-icon2"></i>
-                <input type="text" class="text w100 fl valid" id="captcha" maxlength="4" size="10" placeholder="请输入验证码">
-                <img src="http://www.mallvv.com/shop/index.php?act=seccode&amp;op=makecode&amp;nchash=d81f1628" name="codeimage" border="0" id="codeimage" class="fl ml5"> <a href="javascript:void(0)" class="ml5" onclick="javascript:document.getElementById('codeimage').src='http://www.mallvv.com/shop/index.php?act=seccode&amp;op=makecode&amp;nchash=d81f1628&amp;t=' + Math.random();">&nbsp;&nbsp;</a>
-                <label id="captcha_laber" class="error"></label>           
+		<div class="">
+			<i class="register-icon2"></i>
+			<input type="text" name="u_pwd" id="u_pwd1" placeholder="请输入密码" class="valid"/>
+			<label></label>
 		</div>
 		<div class="">
-			
-				<i class="register-icon2"></i>
-				<input type="text" name="validCode" id="validCode" placeholder="请输入手机验证码 " class="input-small">
-				<label></label>	
-			
+			<i class="register-icon2"></i>
+			<input type="text" name="u_pwd2" id="u_pwd2" placeholder="再次输入密码" class="valid"/>
+			<label></label>
 		</div>
+		
+		
 		<div class="">			
 			<input type="checkbox" name="agree" id="agree" value="1" checked="checked">
 			<label for="agree"></label>
@@ -72,7 +75,7 @@
 			<label></label>
 		</div>
 		<div class="">
-			<input style="" type="submit" value="下一步 " class="button-break fl">
+			<button type="submit" class="button-break fl">注册</button>
 		</div>
 	</form>
 </div>
